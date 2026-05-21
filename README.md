@@ -1,11 +1,126 @@
-# VueDemo
+# Customer Management Front-End App
 
-This is a front-end App built using Vue.JS javascript framework. It contains Add, Update and Index Pages for managing customers.
+A front-end customer management application built with Vue.js.  
+This application provides functionality for:
 
-This app uses CustomerAPI project as backend and its source code is located at https://github.com/mrzasad/CustomerAPI
+- Adding customers
+- Updating customers
+- Viewing customer listings
 
-To run this app, first open command prompt and move to the directory containing the package.json file which is also the root directory of the application. Then, run the following command to install all dependencies for the first time:
+The application communicates with the backend API provided by the `CustomerAPI` project.
+
+---
+
+# 🛠️ Tech Stack
+
+- Vue.js
+- JavaScript
+- Node.js
+- npm
+
+---
+
+# 🔗 Backend API
+
+This application depends on the CustomerAPI backend project.
+
+Repository:
+
+urlCustomerAPI Repositoryhttps://github.com/mrzasad/CustomerAPI
+
+Make sure the API project is running before starting the front-end application.
+
+---
+
+# 📦 Project Features
+
+- Customer listing page
+- Add customer page
+- Update customer page
+- API integration with backend services
+- Vue.js component-based architecture
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+Before running the application, ensure the following are installed:
+
+- Node.js
+- npm
+
+---
+
+# 📥 Installation
+
+Open a command prompt or terminal and navigate to the root directory of the application (the directory containing `package.json`).
+
+Run the following command to install all required dependencies:
+
+```bash
 npm install
+```
 
-Next, run the following command to run app and browse it at localhost:8080
+---
+
+# ▶️ Run the Application
+
+After installation is complete, start the Vue.js development server with:
+
+```bash
 npm run serve
+```
+
+The application will be available at:
+
+```text
+http://localhost:8080
+```
+
+---
+
+# 📁 Project Structure
+
+```text
+project-root/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── views/
+│   ├── router/
+│   └── App.vue
+│
+├── package.json
+└── README.md
+```
+
+---
+
+# 🔄 Application Workflow
+
+```text
+Vue.js Front-End
+        │
+        ▼
+CustomerAPI Backend
+        │
+        ▼
+Database
+```
+
+---
+
+# 🧪 Development Notes
+
+- Ensure the backend API is running before launching the front-end app.
+- The application uses Vue.js development tooling provided by Vue CLI.
+- API endpoints are configured to communicate with the CustomerAPI backend.
+
+---
+
+# 📄 License
+
+MIT License
